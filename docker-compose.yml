@@ -1,0 +1,19 @@
+services:
+
+  web-ipv4:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    image: origen-web-ipv4:latest
+
+    container_name: origen-web-ipv4
+
+    ports:
+      - "8080:80"
+
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+
+    restart: unless-stopped
