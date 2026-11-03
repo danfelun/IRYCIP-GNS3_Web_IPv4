@@ -267,21 +267,6 @@ curl http://192.168.10.13
 
 valida el acceso al servicio HTTP.
 
-## Posibles extensiones
-
-A partir de este escenario se puede evolucionar posteriormente hacia:
-
-- HTTP GET vs HTTP POST.
-- HTTP vs HTTPS/TLS.
-- TCP vs UDP.
-- Puertos y sockets.
-- Análisis del three-way handshake de TCP.
-- Nginx y Apache.
-- CMS.
-- Bases de datos.
-- Captura de sesiones reales.
-- Diagnóstico mediante `ss`, `tcpdump`, `curl` y Wireshark.
-
 ## PROYECTO ORIGEN
 
 **Explorar · Comprender · Conectar · Diagnosticar**
